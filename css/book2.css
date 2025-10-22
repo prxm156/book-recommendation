@@ -1,0 +1,173 @@
+body {
+    background-color: #f9fbff;
+    font-family: 'K2D', sans-serif;
+    color: #1a1a1a;
+    line-height: 1.8;
+}
+
+/* Header fonts */
+.fk {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    
+}
+
+.fk2d {
+ font-family: 'K2D', sans-serif;
+
+}
+/* Hero section */
+.hero-section {
+    padding: 30px 0;
+}
+
+.book-cover {
+    max-width: 400px;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+
+}
+
+.book-cover:hover {
+    transform: scale(1.05);
+    
+}
+
+
+/* Feature boxes */
+.feature-box {
+    background-color: #ece9e9;
+    border: 2px solid #00000000;
+    border-radius: 16px;
+    padding: 25px;
+    height: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 10, 10, 0);
+}
+
+.feature-box:hover {
+    border-color: #DA4626;
+    transform: translateY(-5px);
+}
+
+/* Highlight section */
+.highlight-section {
+    background: linear-gradient(135deg, #0a47a9, #1d6ef2);
+    color: #fff;
+    border-radius: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.highlight-section h3 {
+    color: #fff;
+}
+
+footer {
+    background-color: #f1f3f8;
+}
+
+
+
+.brand-white {
+    color: #ffffff;
+}
+
+.textspace {
+  text-indent: 50px;
+    
+}
+
+.highlight-div {
+    
+    background-color: #ffffff;
+    border-radius: 16px;
+    
+   
+
+    
+    
+ }
+
+ .pp{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    color: #ffe6d9
+ }
+
+ /* font size p */
+.fsp{
+    font-size: 32px;
+}
+
+/* font size h */
+.fsh{
+    font-size: 40px;
+    
+}
+
+.bgg{
+    background-color: #2B2B2B
+}
+.bgb{
+    background-color: #EDEDED;
+
+}
+
+.bgor{
+    background-color: #ff7033
+    
+}
+
+.bgw{
+    color: #ffffff;
+}
+
+.pc{
+    color: #ffe6d9
+}
+
+.ph{
+    color: #ff7033;
+}
+
+.cpp {
+    color: #f5f5f5
+
+  }
+
+
+  /* อันใหม่ */
+
+  /* ===== COLOR THEME ===== */
+:root {
+  --orange: #FF5C00;
+  --dark-gray: #1E1E1E;
+  --mid-gray: #9A9A9A;
+  --light-gray: #F5F5F5;
+  --white: #FFFFFF;
+}
+
+
+
+/* ===== HEADERS ===== */
+h2.ph {
+  color: var(--orange);
+  border-left: 5px solid var(--orange);
+  padding-left: 10px;
+  margin-bottom: 1.2rem;
+
+}
+
+.custom-link {
+    color: #fa7c46;         /* เปลี่ยนสีข้อความเป็นสีเทาเข้มหรือสีที่คุณต้องการ */
+    text-decoration: none;  /* ลบขีดเส้นใต้ */
+    font-weight: 500;       /* เพิ่มน้ำหนักตัวอักษรเล็กน้อย (ถ้าต้องการ) */
+  }
+
+  .custom-link:hover {
+    color: #e0593b;;         /* สีเมื่อ hover (เช่นชมพูเข้ม หรือสีที่โดดเด่น) */
+    text-decoration: underline; /* ถ้าต้องการให้มีขีดตอน hover ก็ใส่ได้ */
+  }
+
+  
